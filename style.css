@@ -7,7 +7,6 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-
 nav{
     background-color: darksalmon;
     font-size: 28px;
@@ -27,6 +26,10 @@ nav a{
 .logo{
     font-size: 36px;
     font-weight: bolder;
+}
+.close{
+    cursor: pointer;
+    display: none;
 }
 nav a:hover{
     color: whitesmoke;
